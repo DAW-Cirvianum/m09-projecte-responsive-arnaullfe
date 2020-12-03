@@ -1,0 +1,45 @@
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+.body-page{
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+
+  .image-server{
+      display: block;
+      margin: auto;
+  }
+
+  .card-header{
+      background-color: lightgray;
+  }
+
+  .card-footer{
+      padding: 5%;
+  }
+
+  .rent-button{
+    height: 50px;
+    width: 100%;
+    background-color:#5cb85c;
+    border: 1px solid #5cb85c;
+    border-radius: 4px;
+    color: white;
+    font-size: 20px;
+  }
