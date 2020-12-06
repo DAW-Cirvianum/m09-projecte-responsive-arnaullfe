@@ -6,38 +6,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../resources/css/server_selected.css">
-    <link rel="stylesheet" href="../resources/css/menu_bar.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../resources/css/server_list.css">
+    <link rel="stylesheet" href="../resources/css/menu_bar.css">
 </head>
 <body>
     <header class="header">
-        <a href="" class="logo">Home</a>
+        <a href="./index.html" class="logo">Home</a>
         <input class="menu-btn" type="checkbox" id="menu-btn" />
         <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
         <ul class="menu">
-          <li><a href="#server">Servidors</a></li>
-          <li><a href="#about_us">Sobre Nosaltres</a></li>
-          <li><a href="#contact">Contacte</a></li>
+          <li><a href="./servers_list.html" class="selected-option">Servidors</a></li>
+          <li><a href="./about_us.html">Sobre Nosaltres</a></li>
+          <li><a href="./contact.html">Contacte</a></li>
         </ul>
       </header> 
-       
-<section class="body-page">
-    <div class="card">
-        <div class="card-header">
-            <img src="./minecraft.png" alt="Avatar" class="image-server">
-        </div>
-        <div class="container">
-          <h3><b>Server de Minecraft</b></h4>
-          <p>Servidor d emnecraft de 4GB capacitat per 100 persones i disponible les 24 hores de dia</p>
-        </div>
-        <div class="card-footer">
-            <button class="rent-button">Llogar</button>
+      
+      <div class="container mt-5">
+          <div class="row mt-5" id="row-servers">
+              
           </div>
       </div>
-</section>
 
-   
+   <script src="../resources/js/server_list.js"></script>
 </body>
 </html>

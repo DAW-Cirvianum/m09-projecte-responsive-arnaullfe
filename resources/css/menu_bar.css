@@ -1,12 +1,12 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Helvetica, sans-serif;
+    font-family: 'Nunito', sans-serif;
     background-color: #f4f4f4;
   }
   
   a {
-    color: #000;
+    color: white !important;
   }
   
   /* header */
@@ -17,7 +17,7 @@ body {
 }
 
   .header {
-    background-color: #fff;
+    background-color: #212121;
     box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
     position: fixed;
     width: 100%;
@@ -30,7 +30,7 @@ body {
     padding: 0;
     list-style: none;
     overflow: hidden;
-    background-color: #fff;
+    background-color: #212121;
   }
   
   .header li a {
@@ -51,6 +51,8 @@ body {
     font-size: 2em;
     padding: 10px 20px;
     text-decoration: none;
+    margin-left: 3%;
+    font-weight: 700;
   }
   
   /* menu */
@@ -70,10 +72,12 @@ body {
     padding: 28px 20px;
     position: relative;
     user-select: none;
+    color: white !important;
   }
   
   .header .menu-icon .navicon {
-    background: #333;
+    background: white;
+    color: white;
     display: block;
     height: 2px;
     position: relative;
@@ -83,7 +87,7 @@ body {
   
   .header .menu-icon .navicon:before,
   .header .menu-icon .navicon:after {
-    background: #333;
+    background: white;
     content: '';
     display: block;
     height: 100%;
@@ -143,6 +147,15 @@ body {
     }
     .header .menu-icon {
       display: none;
+      color: white;
     }
   }
   
+  .selected-option{
+    background-color: lightgray; 
+    margin-top: 2px;
+  }
+
+  .index-selected{
+    margin-top: 2px;
+  }
