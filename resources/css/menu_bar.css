@@ -42,7 +42,7 @@ body {
   
   .header li a:hover,
   .header .menu-btn:hover {
-    background-color: #f4f4f4;
+    background-color: gray;
   }
   
   .header .logo {
@@ -152,8 +152,7 @@ body {
   }
   
   .selected-option{
-    background-color: lightgray; 
-    margin-top: 2px;
+    background-color: gray; 
   }
 
   .index-selected{
