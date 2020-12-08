@@ -1,0 +1,63 @@
+
+footer{
+    display: flex;
+    color: white;
+    bottom:0 ;
+    left: 0;
+    background-color: #333333;
+    width: 100%;
+    padding: 30px;
+}
+
+.contacte{
+    float: left;
+    width: 45%;
+}
+
+.xarxes{
+    float: right;
+    width: 45%;
+    text-align: right;
+}
+
+.facebook{
+    border: none;
+    outline: none;
+    font-size: 30px;
+    color: #3B5998 ;
+    background-color: transparent;
+    margin-right: 1%;
+    cursor: pointer;
+}
+.whatsapp{
+    border: none;
+    outline: none;
+    font-size: 30px;
+    color: #1EBEA5 ;
+    background-color: transparent;
+    margin-right: 1%;
+    cursor: pointer;
+}
+.youtube {
+    border: none;
+    outline: none;
+    font-size: 30px;
+    color: #FF0000;
+    background-color: transparent;
+    margin-right: 1%;
+    cursor: pointer;
+}
+
+.email{
+    border: none;
+    outline: none;
+    font-size: 30px;
+    color: white;
+    background-color: transparent;
+    margin-right: 1%;
+    cursor: pointer;
+}
+
+.contact{
+    cursor: pointer;
+}
