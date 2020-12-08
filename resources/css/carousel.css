@@ -80,6 +80,7 @@
     overflow-x: scroll;
     scroll-behavior: smooth;
     scroll-snap-type: x mandatory;
+    overflow-x: hidden;
   }
   
   .carousel__slide {

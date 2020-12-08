@@ -42,8 +42,7 @@
   }
 
   .card:hover{
-      color: white;
-      background-color: purple;
+      background-image: linear-gradient(purple, white);
   }
 
   main {
@@ -54,6 +53,16 @@
     display: grid;
     grid-gap: 1rem;
     margin-bottom: 20px;
+  }
+
+  .more-info{
+    padding: 20px 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #5cb85c;
+    color: white;
+    background-color: #5cb85c;
+
   }
   
   /* Screen larger than 600px? 2 column */
