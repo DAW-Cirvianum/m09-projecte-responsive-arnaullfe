@@ -69,6 +69,7 @@ main{
   .flex-item {
     width: 90%;
     margin-top: 10px;
+    margin-bottom: 20px;
     color: black;
     font-weight: bold;
     text-align: center;
@@ -121,6 +122,10 @@ main{
     line-height: 56px;
     font-size: 45px;
     font-family: muli;
+   }
+
+   .hidden{
+       visibility: hidden;
    }
   
   @media (min-width: 600px) {
