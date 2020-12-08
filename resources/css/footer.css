@@ -1,0 +1,19 @@
+.footer {
+    margin-top: 50px;
+     bottom: 0;
+     display: grid;
+     grid-template-columns: auto;
+     grid-gap: 10px;
+     background-color:  #212121;
+     color: white;
+     padding:5% 0;
+     width: 100%;
+}
+
+.center-p{
+ text-align: center;
+}
+
+.icon{
+    display: inline;
+}
