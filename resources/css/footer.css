@@ -3,10 +3,8 @@ footer{
     display: flex;
     color: white;
     bottom:0 ;
-    left: 0;
     background-color: #333333;
-    width: 100%;
-    padding: 30px;
+    padding: 20px;
 }
 
 .contacte{
