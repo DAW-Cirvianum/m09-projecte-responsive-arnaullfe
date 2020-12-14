@@ -2,7 +2,6 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Nunito', sans-serif;
-    background-color: #f4f4f4;
   }
   
   a {
@@ -36,7 +35,6 @@ body {
   .header li a {
     display: block;
     padding: 20px 20px;
-    border-right: 1px solid #f4f4f4;
     text-decoration: none;
   }
   
@@ -152,9 +150,9 @@ body {
   }
   
   .selected-option{
-    background-color: gray; 
+    color: black !important;
+    font-weight: 900;
+    background-color: #F6EEEC ;
   }
 
-  .index-selected{
-    margin-top: 2px;
-  }
+  

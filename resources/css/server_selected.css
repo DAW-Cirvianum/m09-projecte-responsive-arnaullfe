@@ -128,6 +128,11 @@ main{
        visibility: hidden;
    }
   
+   .carta-principal{
+     width: 90%;
+     margin: auto;
+     padding: 1%;
+   }
   @media (min-width: 600px) {
     .flex-item {
         width: 40%;
@@ -138,4 +143,14 @@ main{
     .flex-item {
         width: 30%;
       }
+
+      .carta-principal{
+        width: 70%;
+      }    
+  }
+
+  @media (min-width: 1000px) {
+    .carta-principal{
+      width: 40%;
+    }  
   }
